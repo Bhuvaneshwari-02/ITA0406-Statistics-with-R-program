@@ -1,0 +1,14 @@
+statistics <- function(v)
+{
+  return(list(
+    Minimum = min(v),
+    Maximum = max(v),
+    Average = mean(v)
+  ))
+}
+
+x <- c(15, 22, 10, 35, 18)
+
+result <- statistics(x)
+
+print(result)
