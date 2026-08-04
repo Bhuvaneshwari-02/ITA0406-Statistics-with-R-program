@@ -1,0 +1,22 @@
+# Basic Data Types
+
+num <- 25.5
+int <- as.integer(10)
+char <- "Bhuvaneshwari"
+logi <- TRUE
+comp <- 3 + 4i
+
+print(num)
+print(class(num))
+
+print(int)
+print(class(int))
+
+print(char)
+print(class(char))
+
+print(logi)
+print(class(logi))
+
+print(comp)
+print(class(comp))
