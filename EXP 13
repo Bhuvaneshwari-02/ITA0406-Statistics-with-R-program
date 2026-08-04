@@ -1,0 +1,10 @@
+names <- c("Anu", "Bhuvana", "Karthik", "Priya")
+
+cat("Upper Case\n")
+print(toupper(names))
+
+cat("Lower Case\n")
+print(tolower(names))
+
+cat("Character Count\n")
+print(nchar(names))
