@@ -1,0 +1,10 @@
+StudentID <- 1:10
+Name <- c("A","B","C","D","E","F","G","H","I","J")
+Marks <- c(85,67,45,92,55,70,39,88,60,78)
+Grade <- c("A","B","C","A","C","B","D","A","B","B")
+
+student <- data.frame(StudentID, Name, Marks, Grade)
+
+student$Result <- ifelse(student$Marks >= 50, "Pass", "Fail")
+
+print(student)
