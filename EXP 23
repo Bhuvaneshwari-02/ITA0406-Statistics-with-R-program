@@ -1,0 +1,23 @@
+numbers <- c(5,10,13,18,19)
+
+for(n in numbers)
+{
+  prime <- TRUE
+
+  if(n <= 1)
+    prime <- FALSE
+
+  for(i in 2:(n-1))
+  {
+    if(n %% i == 0)
+    {
+      prime <- FALSE
+      break
+    }
+  }
+
+  if(prime)
+    cat(n,"is Prime\n")
+  else
+    cat(n,"is Not Prime\n")
+}
