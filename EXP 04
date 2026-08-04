@@ -1,0 +1,14 @@
+v1 <- c(TRUE, FALSE, TRUE, FALSE)
+v2 <- c(TRUE, TRUE, FALSE, FALSE)
+
+cat("AND:\n")
+print(v1 & v2)
+
+cat("OR:\n")
+print(v1 | v2)
+
+cat("NOT:\n")
+print(!v1)
+
+cat("XOR:\n")
+print(xor(v1, v2))
