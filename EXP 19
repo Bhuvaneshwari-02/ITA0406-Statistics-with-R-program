@@ -1,0 +1,7 @@
+mylist <- list(100, "R Programming", TRUE, 5 + 3i)
+
+for(i in mylist)
+{
+  print(i)
+  print(class(i))
+}
