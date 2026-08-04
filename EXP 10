@@ -1,0 +1,13 @@
+v <- c(10, 5, 25, 18, 9, 30, 12, 40, 8, 15)
+
+cat("Sum =", sum(v), "\n")
+cat("Mean =", mean(v), "\n")
+
+cat("Sorted Vector\n")
+print(sort(v))
+
+cat("Reverse Vector\n")
+print(rev(v))
+
+cat("First Five Elements\n")
+print(v[1:5])
