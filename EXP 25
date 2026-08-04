@@ -1,0 +1,9 @@
+student <- data.frame(
+ Name = c("A","B","C","D"),
+ Marks = c(80,55,72,90),
+ Attendance = c(82,70,90,78)
+)
+
+result <- subset(student, Marks > 60 & Attendance > 75)
+
+print(result)
