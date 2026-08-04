@@ -1,0 +1,11 @@
+blood <- c("A", "B", "O", "AB", "A", "O", "B", "A")
+
+bloodFactor <- factor(blood)
+
+print(bloodFactor)
+
+cat("Levels\n")
+print(levels(bloodFactor))
+
+cat("Frequency\n")
+print(table(bloodFactor))
