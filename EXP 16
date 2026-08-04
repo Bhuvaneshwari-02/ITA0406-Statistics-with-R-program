@@ -1,0 +1,9 @@
+student <- data.frame(
+  Name = c("A", "B", "C", "D", "E", "F", "G"),
+  Marks = c(80, 92, 67, 75, 95, 60, 88)
+)
+
+sorted <- student[order(student$Marks, decreasing = TRUE), ]
+
+cat("Top 5 Students\n")
+print(head(sorted, 5))
