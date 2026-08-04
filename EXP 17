@@ -1,0 +1,8 @@
+# Create a 2 x 3 x 4 array
+arr <- array(sample(1:100, 24), dim = c(2, 3, 4))
+
+cat("Complete Array\n")
+print(arr)
+
+cat("Slice at 3rd Dimension = 2\n")
+print(arr[, , 2])
