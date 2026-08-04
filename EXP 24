@@ -1,0 +1,19 @@
+A <- matrix(c(1,2,3,
+              2,4,5,
+              3,5,6), nrow=3)
+
+flag <- TRUE
+
+for(i in 1:nrow(A))
+{
+  for(j in 1:ncol(A))
+  {
+    if(A[i,j] != A[j,i])
+      flag <- FALSE
+  }
+}
+
+if(flag)
+  cat("Symmetric Matrix")
+else
+  cat("Not Symmetric")
