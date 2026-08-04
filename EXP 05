@@ -1,0 +1,18 @@
+calculator <- function(a, b, op)
+{
+  if(op == "+")
+    return(a + b)
+  else if(op == "-")
+    return(a - b)
+  else if(op == "*")
+    return(a * b)
+  else if(op == "/")
+    return(a / b)
+  else
+    return("Invalid Operator")
+}
+
+print(calculator(20, 5, "+"))
+print(calculator(20, 5, "-"))
+print(calculator(20, 5, "*"))
+print(calculator(20, 5, "/"))
