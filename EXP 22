@@ -1,0 +1,13 @@
+employee <- list(
+  Name = "Bhuvaneshwari",
+  ID = 101,
+  Salary = 45000,
+  Department = "IT"
+)
+
+print(employee)
+
+employee$Salary <- 50000
+
+cat("Updated Employee Record\n")
+print(employee)
