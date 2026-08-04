@@ -1,0 +1,13 @@
+# Create vector
+v <- c(10, 20, 30)
+
+# Create matrix
+m <- matrix(1:4, nrow = 2)
+
+# Create list
+mylist <- list(v, m, "R Programming")
+
+# Access elements
+print(mylist[[1]])
+print(mylist[[2]])
+print(mylist[[3]])
